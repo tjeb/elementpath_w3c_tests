@@ -19,19 +19,20 @@ This is a work in progress; it currently ignores about half of the tests, and th
 
 ## Installation
 
-- Create a directory to put everything in
+Create a directory to put everything in
 
     > mkdir ~/ep_tests
     > cd ~/ep_tests
 
-- Fetch this repository, the w3c suite and elementpath
+Fetch this repository, the w3c suite and elementpath
 
     > git clone https://github.com/w3c/qt3tests
     > git clone https://github.com/sissaschool/elementpath
-    > git clone https://github.com/tjeb/elementpath_test_harness
+    > git clone https://github.com/tjeb/elementpath_w3c_tests
 
-- Setup the environment
-    > cd elementpath_test_harness
+Setup the environment
+
+    > cd elementpath_w3c_tests
     > python3 -m venv venv
     > source venv/bin/activate
     > pip install -r requirements.txt
@@ -41,7 +42,7 @@ This is a work in progress; it currently ignores about half of the tests, and th
 
 Assuming you have the test suite installed in the directories used in the previous section:
 
-    > cd ~/ep_tests/elementpath_test_harness
+    > cd ~/ep_tests/elementpath_w3c_tests
     > source venv/bin/activate
     > ./execute_tests.py ../qt3tests/catalog.xml
 
