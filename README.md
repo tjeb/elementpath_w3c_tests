@@ -19,18 +19,19 @@ This is a work in progress; it currently ignores about half of the tests, and th
 
 ## Installation
 
-- Create a directory to put everything in
+Create a directory to put everything in
 
     > mkdir ~/ep_tests
     > cd ~/ep_tests
 
-- Fetch this repository, the w3c suite and elementpath
+Fetch this repository, the w3c suite and elementpath
 
     > git clone https://github.com/w3c/qt3tests
     > git clone https://github.com/sissaschool/elementpath
     > git clone https://github.com/tjeb/elementpath_test_harness
 
-- Setup the environment
+Setup the environment
+
     > cd elementpath_test_harness
     > python3 -m venv venv
     > source venv/bin/activate
