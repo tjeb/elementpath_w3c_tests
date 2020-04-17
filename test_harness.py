@@ -1,6 +1,12 @@
 import os
+import decimal
+
 from lxml import etree
 from util import WorkingDirectory
+
+from elementpath import XPath2Parser, XPathContext, select
+import elementpath
+
 
 nsmap = {None: "http://www.w3.org/2010/09/qt-fots-catalog"}
 
